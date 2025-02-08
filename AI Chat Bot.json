@@ -1,0 +1,127 @@
+{
+  "name": "My workflow",
+  "nodes": [
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.chatTrigger",
+      "typeVersion": 1.1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "b7cfd586-96ce-4817-b23a-542818341309",
+      "name": "When chat message received",
+      "webhookId": "641a245f-b247-43bd-b4d0-42ad8bfb8136"
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "[\n  {\n    \"id\": \"194d3d2a14b5ebe0\",\n    \"threadId\": \"194d3d2a14b5ebe0\",\n    \"snippet\": \"n8n.cloud was granted access to your Google account dineshmalem@gmail.com If you did not grant access, you should check this activity and secure your account. Check activity You can also see security\",\n    \"payload\": {\n      \"mimeType\": \"multipart/alternative\"\n    },\n    \"sizeEstimate\": 12084,\n    \"historyId\": \"477300\",\n    \"internalDate\": \"1738720583000\",\n    \"labels\": [\n      {\n        \"id\": \"INBOX\",\n        \"name\": \"INBOX\"\n      },\n      {\n        \"id\": \"CATEGORY_UPDATES\",\n        \"name\": \"CATEGORY_UPDATES\"\n      },\n      {\n        \"id\": \"UNREAD\",\n        \"name\": \"UNREAD\"\n      }\n    ],\n    \"Subject\": \"Security alert\",\n    \"From\": \"Google <no-reply@accounts.google.com>\",\n    \"To\": \"dineshmalem@gmail.com\"\n  },\n  {\n    \"id\": \"194d3c8a25b81212\",\n    \"threadId\": \"194d3c8a25b81212\",\n    \"snippet\": \"Join Us for a Masterclass on \\\"Role of a Mentor in Career Success\\\" by Karuna Ahuja, Global CHRO and Conscious Leadership Coach View this email in your browser 🌟 Unlock Career Success with\",\n    \"payload\": {\n      \"mimeType\": \"multipart/alternative\"\n    },\n    \"sizeEstimate\": 68692,\n    \"historyId\": \"477219\",\n    \"internalDate\": \"1738719899000\",\n    \"labels\": [\n      {\n        \"id\": \"INBOX\",\n        \"name\": \"INBOX\"\n      },\n      {\n        \"id\": \"CATEGORY_PROMOTIONS\",\n        \"name\": \"CATEGORY_PROMOTIONS\"\n      },\n      {\n        \"id\": \"UNREAD\",\n        \"name\": \"UNREAD\"\n      }\n    ],\n    \"Subject\": \"💼✨ Tomorrow: Masterclass on Mentorship\",\n    \"From\": \"Wadhwani Foundation <shrung.gupta@wfglobal.org>\",\n    \"To\": \"Dinesh Malem <dineshmalem@gmail.com>\"\n  },\n  {\n    \"id\": \"194d2208dabe2919\",\n    \"threadId\": \"194d2208dabe2919\",\n    \"snippet\": \"Hello Dinesh, This is a reminder that you have yet to submit the application for the Assurance - Financial Markets-Data Engineer job. To finish your application, please click on the following link to\",\n    \"payload\": {\n      \"mimeType\": \"multipart/alternative\"\n    },\n    \"sizeEstimate\": 21885,\n    \"historyId\": \"477136\",\n    \"internalDate\": \"1738692135000\",\n    \"labels\": [\n      {\n        \"id\": \"INBOX\",\n        \"name\": \"INBOX\"\n      },\n      {\n        \"id\": \"CATEGORY_UPDATES\",\n        \"name\": \"CATEGORY_UPDATES\"\n      },\n      {\n        \"id\": \"UNREAD\",\n        \"name\": \"UNREAD\"\n      }\n    ],\n    \"From\": \"PwC Talent Acquisition <opportunities@careeralerts-ta.pwc.com>\",\n    \"Subject\": \"Finish your incomplete application\",\n    \"To\": \"dineshmalem@gmail.com\"\n  },\n  {\n    \"id\": \"194d1f3fc9224f48\",\n    \"threadId\": \"194d1f3fc9224f48\",\n    \"snippet\": \"Enhance output with the enterprise-ready platform which developers know and love. Having trouble viewing this email? | View as a web page Microsoft Code, collaborate and deploy faster with GitHub\",\n    \"payload\": {\n      \"mimeType\": \"multipart/alternative\"\n    },\n    \"sizeEstimate\": 45895,\n    \"historyId\": \"477066\",\n    \"internalDate\": \"1738689196000\",\n    \"labels\": [\n      {\n        \"id\": \"INBOX\",\n        \"name\": \"INBOX\"\n      },\n      {\n        \"id\": \"CATEGORY_PROMOTIONS\",\n        \"name\": \"CATEGORY_PROMOTIONS\"\n      },\n      {\n        \"id\": \"UNREAD\",\n        \"name\": \"UNREAD\"\n      }\n    ],\n    \"From\": \"Microsoft <replyto@email.microsoft.com>\",\n    \"To\": \"dineshmalem@gmail.com\",\n    \"Subject\": \"Drive AI-powered innovation at scale — try GitHub Enterprise free\"\n  },\n  {\n    \"id\": \"194d19c96f871d6d\",\n    \"threadId\": \"194d19c96f871d6d\",\n    \"snippet\": \"Groww Digest 4 February 2025 Sensex 78583.81 ▲ 1.81% Nifty 23739.25 ▲ 1.62% Nifty 50 23739.25 +378.20 [1-day] 💡 Nifty 50 has risen between 1% and 2% about 122 times in the last 5 years. Markets opened\",\n    \"payload\": {\n      \"mimeType\": \"multipart/alternative\"\n    },\n    \"sizeEstimate\": 53201,\n    \"historyId\": \"476936\",\n    \"internalDate\": \"1738682858000\",\n    \"labels\": [\n      {\n        \"id\": \"INBOX\",\n        \"name\": \"INBOX\"\n      },\n      {\n        \"id\": \"CATEGORY_UPDATES\",\n        \"name\": \"CATEGORY_UPDATES\"\n      },\n      {\n        \"id\": \"UNREAD\",\n        \"name\": \"UNREAD\"\n      }\n    ],\n    \"To\": \"<dineshmalem@gmail.com>\",\n    \"From\": \"Groww Digest <noreply@digest.groww.in>\",\n    \"Subject\": \"SEBI's new algo trading reforms, L&T's major order, & more - Groww Digest\"\n  }\n]",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 1.7,
+      "position": [
+        440,
+        0
+      ],
+      "id": "66f5d69c-22c5-4cf3-ab99-b6f11072521d",
+      "name": "AI Agent"
+    },
+    {
+      "parameters": {
+        "model": {
+          "__rl": true,
+          "value": "gpt-4o-mini",
+          "mode": "id"
+        },
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+      "typeVersion": 1.2,
+      "position": [
+        480,
+        220
+      ],
+      "id": "4398c356-cf11-4e03-9d04-ae17e342406d",
+      "name": "OpenAI Chat Model",
+      "credentials": {
+        "openAiApi": {
+          "id": "CaAuBQiKYFM9kYc7",
+          "name": "OpenAi account 2"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "getAll",
+        "limit": 5,
+        "filters": {}
+      },
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.1,
+      "position": [
+        200,
+        0
+      ],
+      "id": "d6159463-baf2-46a7-b03a-4921aec4305b",
+      "name": "Gmail",
+      "webhookId": "fed37190-0ddc-482c-9121-1f574b637e2b",
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "YtJKvfxlDYAZCfNx",
+          "name": "Gmail account"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "When chat message received": {
+      "main": [
+        [
+          {
+            "node": "Gmail",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenAI Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Gmail": {
+      "main": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "a3cf1987-6714-4d94-a718-7cbcc8a44fda",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "e8b9eaf584a079a5b0d9154e03eea1785dd68d3d949357d804007859484f59c2"
+  },
+  "id": "sXmbTnrgcVppZk7C",
+  "tags": []
+}
